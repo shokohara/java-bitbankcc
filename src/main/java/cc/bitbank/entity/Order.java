@@ -11,7 +11,6 @@ import java.util.Date;
 /**
  * Created by tanaka on 2017/04/12.
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class Order extends Data {
     @JsonProperty("order_id")
     public long orderId;
