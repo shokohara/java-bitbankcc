@@ -10,11 +10,11 @@ import java.util.Date;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Ticker extends Data {
-    public int sell;
-    public int buy;
-    public int high;
-    public int low;
-    public int last;
+    public String sell;
+    public String buy;
+    public String high;
+    public String low;
+    public String last;
     public BigDecimal vol;
     public Date timestamp;
 
