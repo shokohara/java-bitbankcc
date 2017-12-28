@@ -8,7 +8,6 @@ import java.util.Date;
 /**
  * Created by tanaka on 2017/04/11.
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class Ticker extends Data {
     public String sell;
     public String buy;
